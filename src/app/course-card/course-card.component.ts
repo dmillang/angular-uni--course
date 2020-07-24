@@ -38,13 +38,6 @@ export class CourseCardComponent implements OnInit {
     }
   }
 
-  cardStyle() {
-    return {
-      'background-image':'url(' + this.course.iconUrl + ')',
-      'background-repeat':'no-repeat',
-      'background-size':'cover',
-      'background-position':'center',
-    }
-  }
+  
 
 }
