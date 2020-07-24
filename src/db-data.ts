@@ -10,7 +10,7 @@ export const COURSES: any = [
         category: 'INTERMEDIATE',
         lessonsCount: 10
     },
-    
+
     {
         id: 2,
         description: "RxJs In Practice Course",

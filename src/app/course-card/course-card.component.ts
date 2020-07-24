@@ -23,10 +23,21 @@ export class CourseCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isImageVisible() {
+    return this.course && this.course.iconUrl;
+  }
+
   onCourseViewed() {
     console.log('hello');
 
     this.courseSelected.emit(this.course);
+  }
+
+  cardClasses() {
+
+    if (this.course.category == 'BEGINNER') {
+      return ['beginner'];
+    }
   }
 
 }
